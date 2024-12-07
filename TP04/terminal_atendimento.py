@@ -75,7 +75,8 @@ def terminal():
             numero = input('Digite o número da conta: ')
             # realize a operacao de obtencao de saldo no sibanco
             saldo = sisbanco.saldo(numero)
-            print(f'Saldo: {saldo}')  # exiba o saldo na tela
+            # exiba o saldo na tela
+            print(f'Saldo: {saldo}')  
 
         elif opcao == 5:
             # solicite o numero da conta alvo
